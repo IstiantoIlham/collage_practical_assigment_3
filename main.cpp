@@ -63,14 +63,25 @@ void keempat() {
 
 void kelima() {
     cout << "=== Soal kelima ===\n" << endl;
-    for (int i = 1; i <= 4; i++) {
-        string row = "";
-        int number = 1;
-        for (int j = 1; j <= 3; j++) {
-            row += to_string(number += 2) + "\t";
-        }
-        cout << row << endl;
+
+    for (int i = 1; i <= 3; i++) {
+        cout << i * 2 << "\t";
     }
+    cout << endl;
+    for (int i = 4; i <= 6; i++) {
+        cout << i * 2 << "\t";
+    }
+    cout << endl;
+
+    for (int i = 7; i <= 9; i++) {
+        cout << i * 2 << "\t";
+    }
+    cout << endl;
+
+    for (int i = 10; i <= 12; i++) {
+        cout << i * 2 << "\t";
+    }
+    cout << endl;
 }
 
 void keenam() {
